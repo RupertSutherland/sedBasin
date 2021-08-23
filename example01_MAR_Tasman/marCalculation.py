@@ -32,7 +32,6 @@ for i,region in enumerate(regions):
 
     # Setup plot for the region
     plt.figure(figsize=(6,4))
-    #plt.Figure()
     plt.title(region)
     plt.xlim([0,xmax])
     plt.xticks(range(0,xmax+1,5))
