@@ -9,8 +9,9 @@ import numpy as np
 from scipy.interpolate import interp1d
 import matplotlib.pyplot as plt
 from matplotlib import rc
+#plt.style.use('ggplot')
+rc('font',size=10,family='Arial')
 rc("pdf", fonttype=42)
-rc('font',size=10)
 
 import marFunctions as mf
 
