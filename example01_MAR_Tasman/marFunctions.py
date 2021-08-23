@@ -1,14 +1,16 @@
 #!/usr/bin/env python 
 # version 3.6
-__author__ = "Rupert Sutherland"
 """
-    Calculate sedimentation rates from seismic mapping
+    Calculate and plot mass accumulation rates for Tasman Sea
+    Sutherland et al. (2021) Paleoceanography Paleoclimatology
 """
 
 import pandas as pd
 import numpy as np
 
 import sedBasin as sed
+
+__author__ = "Rupert Sutherland"
 
 # Velocity model from IODP Site U1507 (deep hole through ooze-chalk)
 # parameters (A,B,C): A*t**2 + B*t + C = z
